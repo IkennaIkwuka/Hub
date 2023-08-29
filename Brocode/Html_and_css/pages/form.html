@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form</title>
+  </head>
+  <body>
+    <form action="index.php" method="post">
+      <label for="username">username:</label>
+      <input
+        type="text"
+        id="username"
+        minlength="6"
+        maxlength="15"
+        required
+        placeholder="Spongebob"
+      />
+      <br />
+      <label for="password">password:</label>
+      <input
+        type="password"
+        id="password"
+        minlength="6"
+        maxlength="15"
+        required
+      />
+      <br />
+      <label for="email">email:</label
+      ><input type="email" id="email" placeholder="email@test.com" required />
+      <br />
+      <label for="phone">phone number:</label>
+      <input type="tel" id="phone" required placeholder="090-5678-0056" />
+      <br />
+      <p>
+        <input type="reset" />
+        <input type="submit" />
+      </p>
+    </form>
+  </body>
+</html>
