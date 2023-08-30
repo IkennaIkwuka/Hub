@@ -1,0 +1,10 @@
+h1{
+    text-shadow: 3px 3px 5px hsl(0, 100%, 50%),-3px -3px 5px hsl(180, 79%, 51%);
+    /* *Horizontal offset, vertical offset, blur, color */
+}
+#box1{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(200, 197, 197);
+    box-shadow: 3px 3px 5px blue;
+}
