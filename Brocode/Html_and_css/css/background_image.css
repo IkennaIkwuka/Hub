@@ -1,0 +1,8 @@
+body {
+  background-image: url(../images/mushroom-8215265_1280.webp);
+  background-repeat: no-repeat;/* *stop repeat of background image */
+  background-position:center;
+  background-attachment: fixed;
+  background-size:cover;
+  
+}

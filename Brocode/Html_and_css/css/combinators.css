@@ -1,0 +1,19 @@
+#container {
+  border: 2px solid;
+}
+/* *descendent combinator */
+/* #container p{
+    background-color: hsl(60, 80%, 48%);
+} */
+/* *child combinator */
+/* #container > p{
+    background-color: hsl(60, 80%, 48%);
+} */
+/* *general sibling combinator */
+/* #container ~ p{
+    background-color: hsl(60, 80%, 48%);
+} */
+/* *adjacent sibling combinator */
+#container + p {
+  background-color: hsl(60, 80%, 48%);
+}
