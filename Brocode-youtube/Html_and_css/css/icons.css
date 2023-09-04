@@ -1,0 +1,31 @@
+.icons {
+  text-align: center;
+}
+.icons a {
+  text-decoration: none;
+  margin-right: 20px;
+}
+.fa-solid.fa-house.fa-5x {
+  color: lightgray;
+}
+.fa-solid.fa-house.fa-5x:hover {
+  color: hsl(0, 12%, 90%);
+}
+.fa-brands.fa-twitter.fa-5x {
+  color: darkblue;
+}
+.fa-brands.fa-twitter.fa-5x:hover {
+  color: hsl(240, 67%, 57%);
+}
+.fa-brands.fa-youtube.fa-5x {
+  color: red;
+}
+.fa-brands.fa-youtube.fa-5x:hover {
+  color: hsl(0, 83%, 79%);
+}
+.fa-brands.fa-tiktok.fa-5x {
+  color: hsl(240, 8%, 13%);
+}
+.fa-brands.fa-tiktok.fa-5x:hover {
+  color: hsl(240, 51%, 74%);
+}
